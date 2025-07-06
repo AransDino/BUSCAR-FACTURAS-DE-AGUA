@@ -41,6 +41,15 @@ Este script realiza una función similar al anterior, pero en lugar de escanear 
     python "BUSCAR_COPIAR_FACTURAS_AGUA.PY"
     ```
 
+### `V0/AGUA ALL SYSTEM - NO-SYSTEM.PY`
+
+Esta es una versión modificada de `AGUA ALL SYSTEM.PY` que excluye directorios comunes del sistema (como `Windows`, `Program Files`, `AppData`, etc.) para acelerar el proceso de búsqueda y evitar escanear carpetas irrelevantes.
+
+**Características:**
+
+- Todas las de `AGUA ALL SYSTEM.PY`.
+- **Exclusión de carpetas:** Evita directorios del sistema para una búsqueda más rápida y eficiente.
+
 ## Requisitos
 
 - Python 3.x
